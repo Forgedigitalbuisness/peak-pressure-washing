@@ -699,3 +699,40 @@ text-align:center;
 }
 
 }
+/* FLOATING QUOTE BUTTON */
+
+.floating-quote {
+
+position:fixed;
+
+right:25px;
+bottom:25px;
+
+background:#0284c7;
+
+color:white;
+
+padding:16px 25px;
+
+border-radius:50px;
+
+font-weight:700;
+
+text-decoration:none;
+
+box-shadow:0 10px 25px rgba(0,0,0,.25);
+
+z-index:999;
+
+transition:.3s;
+
+}
+
+
+.floating-quote:hover {
+
+transform:translateY(-5px);
+
+background:#0369a1;
+
+}
