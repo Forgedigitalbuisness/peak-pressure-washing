@@ -771,3 +771,30 @@ font-size:16px;
 color:#0f172a;
 
 }
+#topBtn {
+
+position:fixed;
+
+bottom:90px;
+
+right:25px;
+
+width:45px;
+
+height:45px;
+
+border:none;
+
+border-radius:50%;
+
+background:#0f172a;
+
+color:white;
+
+font-size:22px;
+
+cursor:pointer;
+
+display:none;
+
+}
