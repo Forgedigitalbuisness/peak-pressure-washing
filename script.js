@@ -34,7 +34,7 @@ form.addEventListener("submit", function(e){
 
     setTimeout(() => {
         alert(
-            "Thank you for contacting Peak Pressure Washing! We'll reach out shortly with your free quote."
+            "Thank you for contacting PowerPressure Washing! We'll reach out shortly with your free quote."
         );
 
         form.reset();
