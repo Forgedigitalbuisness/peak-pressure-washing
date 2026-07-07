@@ -360,3 +360,126 @@ footer{
     font-size:1.1rem;
     font-weight:600;
 }
+/* WHY CHOOSE US */
+
+.why-us {
+
+padding:100px 20px;
+background:white;
+
+}
+
+
+.section-subtitle {
+
+max-width:700px;
+margin:0 auto 50px;
+
+text-align:center;
+
+color:#64748b;
+
+font-size:18px;
+
+}
+
+
+
+.why-us h2 {
+
+text-align:center;
+
+font-size:42px;
+
+color:#0f172a;
+
+margin-bottom:15px;
+
+}
+
+
+
+.why-grid {
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:25px;
+
+}
+
+
+
+.why-card {
+
+
+background:#f8fafc;
+
+padding:35px 25px;
+
+border-radius:18px;
+
+text-align:center;
+
+transition:.3s;
+
+border:1px solid #e2e8f0;
+
+
+}
+
+
+
+.why-card:hover {
+
+
+transform:translateY(-8px);
+
+box-shadow:0 15px 30px rgba(0,0,0,.1);
+
+
+}
+
+
+
+.icon {
+
+font-size:45px;
+
+margin-bottom:20px;
+
+}
+
+
+
+.why-card h3 {
+
+font-size:22px;
+
+color:#0f172a;
+
+margin-bottom:12px;
+
+}
+
+
+
+.why-card p {
+
+color:#64748b;
+
+line-height:1.6;
+
+}
+@media(max-width:900px){
+    .why-grid{
+        grid-template-colum:1fr 1fr;
+    }
+}
+
+@media(max-width:600px){
+    .why-grid{
+        grid-tempolate-colum:1fr;
+    }
+}
